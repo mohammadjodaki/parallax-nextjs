@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Bolden;
+  src: url(./fonts/BoldenVan.ttf);
+}
+@font-face {
+  font-family: fungis;
+  src: url(./fonts/fungis.ttf);
+}
+body{
+  font-family: Bolden;
+  background-color: #101615;
+}
+p{
+  font-family: fungis;
+}
+
