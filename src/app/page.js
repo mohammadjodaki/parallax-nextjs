@@ -24,8 +24,8 @@ export default function Home() {
   }
 
   return (
-    <div>
-            <div className="w-40 h-40 rounded-full fixed z-50 right-2 bottom-2 shadow-2xl shadow-blue-900">
+    <div className="w-full overflow-x-hidden">
+      <div className="w-40 h-40 rounded-full fixed z-50 right-2 bottom-2 shadow-2xl shadow-blue-900">
         <Image className='w-full h-full rounded-full object-cover cursor-pointer z-50 absolute' onClick={toggleProfile} src={Profile}/>
         <a target="_blank" href="https://www.linkedin.com/in/mohammad-jodakian"><LinkedInIcon className={`hover:bg-amber-500 text-3xl absolute top-20 left-16 text-white bg-blue-800 transform transition-transform duration-500 ease-linear ${profile ? '-translate-x-28 -translate-y-20' : 'translate-x-full translate-y-full'}`}/></a>
         <a target="_blank" href="https://instagram.com/mohammad_jodaki_web"><InstagramIcon className={`hover:bg-amber-500 text-3xl absolute top-20 left-16 text-white bg-blue-800 transform transition-transform duration-500 ease-linear ${profile ? '-translate-x-28 -translate-y-10' : 'translate-x-full translate-y-full'}`}/></a>
