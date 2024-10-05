@@ -60,7 +60,7 @@ useEffect(() => {
   }, []);  
 
   return (  
-    <div className='relative w-full h-[75vh] lg:h-[150vh] overflow-x-hidden overflow-y-hidden'>  
+    <div className='relative w-full h-[75vh] lg:h-[150vh]'>  
       <Image className='absolute w-full h-full bg-cover' src={Sky} alt="Sky Background"/>  
       <Image className='absolute w-full' src={Leaf} alt="Leaf Background"/>  
       <Image   

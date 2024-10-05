@@ -10,7 +10,13 @@
   font-family: fungis;
   src: url(./fonts/fungis.ttf);
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
+  max-width: 100%;
   font-family: Bolden;
   background-color: #101615;
 }
